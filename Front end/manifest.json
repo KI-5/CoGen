@@ -1,0 +1,24 @@
+{
+  "name": "CoGen",
+  "id": "1374035762600505178",
+  "api": "1.0.0",
+  "main": "./src/code.js",
+  "capabilities": [],
+  "enableProposedApi": false,
+  "documentAccess": "dynamic-page",
+  "editorType": [
+    "figma"
+  ],
+  
+  "ui": "./src/index.html",
+  
+  "networkAccess": {
+    "allowedDomains": [
+      "https://fc59-203-143-16-65.ngrok-free.app",
+      "https://cdn.jsdelivr.net",
+      "https://rsms.me",
+      "https://api.figma.com"
+      
+    ]
+  }
+}
