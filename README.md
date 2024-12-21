@@ -15,12 +15,13 @@ Pre-requisites: [Figma web application](https://www.figma.com/downloads/), [ngro
 The repository consists of the models and the front-end code used in VSCode. Due to the large file sizes, the datasets and the trained model are not included in this repository. To gain access to both these files please contact ishani.kanapathipillai@gmail.com.
 
 Once downloaded please follow the following steps:
-1 Run the server, by using the command `py app.py` This is required to start your Flask app on the local machine.
-2 Open ngrok and enter `ngrok http 5000` (5000 might change and this will be according to your app's port). This step is to get a public URL.
-3 Copy the ngrok URL and test whether it is working on a browser.
-4 Update the manifest json code and include the ngrok URL.
-5 Open Figma > Plugins > Development > Import plugin from manifest > Point to the exact file location.
-6 Open the plugin on Figma and type the needed component requirements, e.g., 'Generate a basic input-field with a state of hover.','Generate a list item.','Generate an input-field.'
-CoGen allows for the creation of the following UI components: buttons, labels, input fields, menu items, list items, and icon buttons. 
 
-(Note that the application is still at a basic level of implementation. Therefore nested component creation is not yet supported.)
+1. Run the server, by using the command `py app.py` This is required to start your Flask app on the local machine.  
+2. Open ngrok and enter `ngrok http 5000` (5000 might change and this will be according to your app's port). This step is to get a public URL.  
+3. Copy the ngrok URL and test whether it is working on a browser.  
+4. Update the manifest json code and include the ngrok URL.  
+5. Open Figma > Plugins > Development > Import plugin from manifest > Point to the exact file location.  
+6. Open the plugin on Figma and type the needed component requirements, e.g., 'Generate a basic input-field with a state of hover.','Generate a list item.','Generate an input-field.'  
+CoGen allows for the creation of the following UI components: buttons, labels, input fields, menu items, list items, and icon buttons.   
+
+(Note that the application is still at a basic level of implementation. Therefore nested component creation is not yet supported.)  
