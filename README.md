@@ -12,7 +12,7 @@ The project involves two major components;  and JSON generation.
 ## Usage instructions
 Pre-requisites: [Figma web application](https://www.figma.com/downloads/), [ngrok](https://download.ngrok.com/windows), [VSCode](https://code.visualstudio.com/download), [Python](https://www.python.org/downloads/).
 
-The repository consists of the models and the front-end code used in VSCode. Due to the large file sizes, the datasets and the trained model are not included in this repository.
+The repository consists of the models and the front-end code used in VSCode. 
 
 Once downloaded please follow the following steps:
 
